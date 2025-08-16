@@ -363,3 +363,11 @@ html {
     opacity: 1;
     transform: translateX(-50%) translateY(-16px);
 }
+@keyframes scan {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+@keyframes scan {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
