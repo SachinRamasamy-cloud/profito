@@ -106,15 +106,10 @@
                         class="rounded-full h-56 w-56 md:h-64 md:w-64 object-cover border-4 border-white shadow-xl glow transition-transform hover:scale-105" />
 
                     <!-- Ping Animation -->
-                    <div
-                        class="absolute inset-0 rounded-full border-2 border-white hover:animate-ping md:animate-ping opacity-85">
+                    <div class="absolute inset-0 rounded-full border-2 border-white md:animate-ping opacity-85">
                     </div>
                 </div>
             </div>
-            <!-- scroll cue -->
-            <a href="#skills"
-                class="sm:hidden absolute text-white text-sm left-1/2 -translate-x-1/2 bottom-8  opacity-80 animate-bounce">Scroll</a>
-
         </section>
         <section id="about" class="py-16 bg-gray-900 text-white">
             <div class="container mx-auto px-6">
@@ -351,14 +346,14 @@
 
         <!--education-->
 
-        <section id="education-achievements" class="py-20 bg-[#0F172A] text-white">
+        <section id="education-achievements" class="py-10 sm:py-20 bg-[#0F172A] text-white">
             <div class="max-w-6xl mx-auto px-6">
                 <h2 class="text-4xl font-bold text-center mb-16">Education & Achievements</h2>
 
                 <div class="relative border-l-4 border-purple-500">
 
                     <!-- Education -->
-                    <div class="mb-12 ml-8 group" data-aos="fade-right">
+                    <div class="mb-8 sm:mb-12 ml-4 sm:ml-8 group" data-aos="fade-up">
                         <div
                             class="absolute -left-[14px] w-7 h-7 bg-purple-500 rounded-full border-4 border-[#0F172A] shadow-lg group-hover:scale-125 transition-transform">
                         </div>
@@ -372,7 +367,7 @@
                     </div>
 
                     <!-- IBM Data Science Certificate -->
-                    <div class="mb-12 ml-8 group" data-aos="fade-left">
+                    <div class="mb-8 sm:mb-12 ml-4 sm:ml-8 group" data-aos="fade-up">
                         <div
                             class="absolute -left-[14px] w-7 h-7 bg-cyan-400 rounded-full border-4 border-[#0F172A] shadow-lg group-hover:scale-125 transition-transform">
                         </div>
@@ -391,7 +386,7 @@
                     </div>
 
                     <!-- MS Word Certificate -->
-                    <div class="mb-12 ml-8 group" data-aos="fade-right">
+                    <div class="mb-8 sm:mb-12 ml-4 sm:ml-8 group" data-aos="fade-up">
                         <div
                             class="absolute -left-[14px] w-7 h-7 bg-orange-400 rounded-full border-4 border-[#0F172A] shadow-lg group-hover:scale-125 transition-transform">
                         </div>
@@ -410,7 +405,7 @@
                     </div>
 
                     <!-- Fresher Status -->
-                    <div class="ml-8 group" data-aos="fade-left">
+                    <div class="mb-8 sm:mb-12 ml-4 sm:ml-8 group" data-aos="fade-up">
                         <div
                             class="absolute -left-[14px] w-7 h-7 bg-green-500 rounded-full border-4 border-[#0F172A] shadow-lg group-hover:scale-125 transition-transform">
                         </div>
@@ -433,6 +428,11 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Script -->
     <script>
+        // AOS.init({
+        //     duration: 800,
+        //     once: true,
+        //     offset: 100
+        // });
         AOS.init({
             duration: 800,
             once: true,
